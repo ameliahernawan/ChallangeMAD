@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangSaya">
+
+    <TextView
+        android:id="@+id/coverTV2"
+        android:background="#FD8A82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:padding="24dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/dancing1" />
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Nama: Hoba Hobibih"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Angkatan: 94"
+        android:textSize="20sp"
+        android:layout_below="@id/TV1"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Jurusan: Kesenian dan Sastra"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_below="@id/TV2"
+        />
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TV4"
+        android:text="Tentang:"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_below="@+id/TV3"
+        />
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Hoba Hobibih, anggota dari komunitas dance sejak semester 1. Memiliki hobi mendengarkan
+musik dan cuci mata ke mall. Sudah mulai menari sejak kelas 3 SD. Pernah mengikuti ekstrakulikuler
+menari saat SMA dan memenangkan juara 1 tingkat provinsi."
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:backgroundTint="#FD8A82"
+        android:onClick="backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

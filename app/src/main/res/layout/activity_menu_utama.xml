@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama"
+    >
+    <TextView
+        android:id="@+id/coverTV2"
+        android:background="#FD8A82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Komunitas Dance"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:padding="24dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/IB1"
+        android:layout_width="311dp"
+        android:layout_height="122dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="33dp"
+        android:onClick="tentangsayaButton"
+        android:scaleType="fitXY"
+        android:src="@drawable/dancing5" />
+
+    <TextView
+        android:layout_width="311sp"
+        android:layout_height="40sp"
+        android:text="Tentang Saya"
+        android:textSize="25sp"
+        android:padding="3dp"
+        android:layout_below="@id/IB1"
+        android:background="#FD8A82"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:id="@+id/IB2"
+        android:onClick="counterButton"
+        android:layout_width="311dp"
+        android:layout_height="122dp"
+        android:layout_below="@id/IB1"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/dancing6"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="311sp"
+        android:layout_height="40sp"
+        android:text="Counter Kehadiran"
+        android:textSize="25sp"
+        android:padding="3dp"
+        android:layout_below="@id/IB2"
+        android:background="#FD8A82"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageButton
+        android:id="@+id/IB3"
+        android:layout_width="311dp"
+        android:layout_height="122dp"
+        android:layout_below="@id/IB2"
+        android:layout_marginTop="74dp"
+        android:onClick="galeriButton"
+        android:src="@drawable/dancing3"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="311sp"
+        android:layout_height="40sp"
+        android:text="Galeri"
+        android:textSize="25sp"
+        android:padding="3dp"
+        android:layout_below="@id/IB3"
+        android:background="#FD8A82"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:backgroundTint="#FD8A82"
+        android:onClick="backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

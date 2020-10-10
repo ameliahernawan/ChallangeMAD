@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Galery">
+
+    <TextView
+        android:id="@+id/coverTV2"
+        android:background="#FD8A82"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeri"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:padding="24dp"
+        />
+
+    <Button
+        android:backgroundTint="#FD8A82"
+        android:onClick="backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="138dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/hoba1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverTV2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginRight="34dp"
+        android:text="Latihan di studio"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/hoba2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverTV2"
+        android:layout_marginTop="208dp"
+        android:text="Diundang ke reality show"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="199dp"
+        android:layout_height="148dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_marginTop="286dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/hoba3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverTV2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginRight="68dp"
+        android:text="Pemanasan"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/coverTV2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="434dp"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/hoba4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coverTV2"
+        android:layout_marginTop="497dp"
+        android:text="Kegiatan dance outdoor"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
